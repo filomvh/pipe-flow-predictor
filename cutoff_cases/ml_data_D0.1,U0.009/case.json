@@ -1,0 +1,50 @@
+{
+  "case_id": "D0.1,U0.009",
+  "pipe": {
+    "diameter": 0.1,
+    "length": 10,
+    "speed": 0.009,
+    "nu": 1e-06
+  },
+  "times_s": [
+    0.0,
+    100.0,
+    200.0,
+    300.0,
+    400.0,
+    500.0,
+    600.0,
+    700.0,
+    760.0
+  ],
+  "axial_points": 400,
+  "radial_points": 20,
+  "columns": [
+    "x_m",
+    "r_m",
+    "t_s",
+    "u_axial_m_s",
+    "u_radial_m_s",
+    "p_kinematic_m2_s2"
+  ],
+  "development": 7.8625,
+  "development_reference_time_s": 760.0,
+  "csv_columns": [
+    "x_m",
+    "r_m",
+    "t_s",
+    "u_axial_m_s",
+    "u_radial_m_s",
+    "p_pa",
+    "tau_axial_pa",
+    "sample_type"
+  ],
+  "density_kg_m3": 1000.0,
+  "wall_axial_points": 400,
+  "steady": 760.0,
+  "steady_confirmed_s": 810.0,
+  "steady_status": "established",
+  "monitor_checked_count": 91,
+  "monitor_available_count": 91,
+  "monitor_first_checked_s": 0.0
+}
